@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>FORM BELANJA KOMPUTER</title>
+    </head>
+    <body>
+        <table border="0" height="90">
+            <tr>
+              <td width="800" ><a href="index.html"><img src="enter-komputer.png" width="200" height="60"></a></td>
+              <td width="1000"><form action="#" method="get">
+            <input type="text" name="search">
+            <input type="submit" value="Search">
+          </form></td>
+              <td width="150"><img src="logo smk.png" width="50" height="60"></td>
+            </tr>
+          </table>
+          
+          <table border="0" height="45" bgcolor="black">
+            <tr>
+              <td width="1000" align="center"><a href="page2.html" style="text-decoration: none;"><font color="white">CPU</font></a></td>
+              <td width="1000" align="center"><a href="page3.html" style="text-decoration: none;"><font color="white">RAM</font></a></td>
+              <td width="1000" align="center"><a href="page4.html" style="text-decoration: none;"><font color="white">MOTHERBOARD</font></a></td>
+              <td width="1000" align="center"><a href="page5.html" style="text-decoration: none;"><font color="white">GPU</font></a></td>
+              <td width="1000" align="center"><a href="page6.html" style="text-decoration: none;"><font color="white">PSU</font></a></td>
+            </tr>
+          </table>
+          <br>
+          <table border="0" height="45" bgcolor="black">
+            <tr>
+              <td width="1500" align="center"><a href="form1.html" style="text-decoration: none;"><font color="white">FORM PEMBELIAN KOMPUTER DISINI!!</font></a></td>
+            </tr>
+          </table>
+        <h1><p align=center>FORM PEMBELIAN KOMPUTER</p></h1>
+        <form action="info.html" method="post">
+            Nama :      
+            <input type="text" name="nama_siswa" size="20" maxlength="20">
+            <br>
+            Alamat :
+            <input type="text" name="nama_siswa" size="19" maxlength="20">
+            <br><br>
+
+            Pilih prosesor :
+            <br>
+            <select name="prosesor">
+                <option value="intel1">Prosesor Intel® Core™ Ultra1</option>
+                <option value="intel2">Prosesor Intel® Core™ (Seri 1)2</option>
+                <option value="intel3">Prosesor Intel® Core™ (generasi ke-14)3</option>
+                <option value="intel4">Prosesor Intel® Core™ (generasi ke-14)4</option>
+            </select>
+            <br><br>
+
+            Pilih VGA :
+            <br>
+            <select name="VGA">
+                <option value="VGA1">GeForce RTX 4090</option>
+                <option value="VGA2">Radeon RX 7900 XTX</option>
+                <option value="VGA3">ROG Strix RTX 4080</option>
+                <option value="VGA4">Gaming X Trio RTX 4070</option>
+            </select>
+            <br><br>
+
+            Pilih RAM :
+            <br>
+            <select name="RAM">
+                <option value="RAM1">Vengeance DDR4</option>
+                <option value="RAM2">Ripjaws V DDR4</option>
+                <option value="RAM3">HyperX Fury DDR4</option>
+                <option value="RAM4">Ballistix DDR4</option>
+            </select>
+            <br><br>
+
+            Metode Pembayaran :
+            <br>
+            <input type="checkbox" id="COD" name="METODEPEMBAYARAN" value="COD">
+            <label for="COD">COD</label>
+            <input type="checkbox" id="TRANSFER" name="METODEPEMBAYARAN" value="TRANSFER">
+            <label for="TRANSFER">TRANSFER</label>
+            <br><br>
+
+            <input type="submit" value="KIRIM">
+            <input type="reset" value="RESET">
+        </form>
+    </body>
+</html>
